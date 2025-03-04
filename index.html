@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ALL4ONE Industrial Engineering</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="../css/Style(Website).css">
+  <link rel="stylesheet" href="../css/Style(homepage).css">
+  
+</head>
+
+<body>
+  <div class="container ">
+    <div class="container-fluid text-center">
+      <img src="../images/Logo.jpg" alt="Logo" class="img-responsive full-width-logo">
+    </div>
+    
+    
+    <!-- below is nav bar(updated)-->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <!-- Toggle button for mobile -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="Homepage.html">ALL4ONE</a> <!-- Home Page -->
+        </div>
+    
+        <!-- Collapsible Menu -->
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="about.html">About us</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="mechanical.html">Mechanical</a></li>
+                <li><a href="electromechnical.html">Electro Mechanical</a></li>
+                <li><a href="instrumentation.html">Instrumentation</a></li>
+                <li><a href="electrical.html">Electrical</a></li>
+              </ul>
+            </li>
+            
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav><!--end of nav bar-->
+
+    <h2 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;"> your ONE-STOP-SHOP for</h2>
+    <hr>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active text-center">
+          <img src="../images/mechanical.jpg" alt="Los Angeles" >
+        </div>
+  
+        <div class="item text-center">
+          <img src="../images/electromechanical.jpg" alt="Chicago" >
+        </div>
+      
+        <div class="item text-center">
+          <img src="../images/Instrumentation.jpg" alt="New york" >
+        </div>
+        <div class="item text-center">
+          <img src="../images/electrical.jpg" alt="New york" >
+        </div>
+  
+  
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <hr>
+  
+  
+
+    
+      <div class="row table-header text-center">
+        <div class="col-sm-3"><h2>Mechanical</h2></div>
+        <div class="col-sm-3"><h2>Electromechanical</h2></div>
+        <div class="col-sm-3"><h2>Instrumentation</h2></div>
+        <div class="col-sm-3"><h2>Electrical</h2></div>
+      </div>
+    
+      <div class="row table-row">
+        <div class="col-sm-3"><!--Mechanical-->
+          <ul>
+            <li>Cast/Ductile Iron Valves</li>
+            <li>Fire Protection Valves (UL/FM)</li>
+            <li>Pipes</li>
+            <li>Fittings/Joints</li>
+          </ul>
+        </div>
+        <div class="col-sm-3"><!--ElectroMechanical-->
+          <ul>
+            <li>Pumps such as:</li>
+            <li>Single Stage</li>
+            <li>Multi Stage</li>
+            <li>Submersible</li>
+          </ul>
+        </div>
+        <div class="col-sm-3"><!--Instrumentations-->
+          <ul>
+            <li>Flow Meters</li>
+            <li>Level Transmiter</li>
+            <li>Automation and Scada Systems</li>
+            <li>Panel Box Assembly and Fabrication</li>
+          </ul>
+        </div>
+        <div class="col-sm-3"><!--Electrical-->
+          <ul>
+            <li> Cables:</li>
+            <li>Electronic wires and calbes</li>
+            <li>Control & Instrumentation cable</li>
+            <li>Data & Protocol Cable</li>
+          </ul>
+        </div>
+      </div>
+   
+      <section>
+        <h2>All4One Sitemap</h2>
+        <img src="../images/all4one_SM.jpg" usemap="#room_layout" alt="Sitemap">
+        <map name="room_layout">
+            <area shape=rect coords="407,56,546,135" href="Homepage.html">
+            <area shape=rect coords="31,222,186,312" href="about.html">
+            <area shape=rect coords="786,223,939,312" href="services.html">
+            <area shape=rect coords="990,226,1140,311" href="contact.html">
+            <area shape=rect coords="126,399,276,486" href="mechanical.html">
+            <area shape=rect coords="309,397,462,490" href="electromechnical.html">
+            <area shape=rect coords="481,398,635,487" href="instrumentation.html">
+            <area shape=rect coords="664,398,816,486" href="electrical.html">
+        </map>
+    </section>   
+     
+  
+  </div><!--end of container-->
+  <footer>
+    <p>Developers: Joel Vincent Balagot, Jean-Luc Figueras, Addison Halanes, Jn Khairus De Mesa</p>
+    
+  </footer>
+
+
+
+</body>
+</html>
